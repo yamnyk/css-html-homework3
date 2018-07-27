@@ -1,18 +1,56 @@
+.page-background {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+}
+
 .container {
-    width: 1280px;
+    width: 1200px;
     margin: 0 auto;
+    font-family: Verdana, sans-serif;
 }
 
 .header {
-
+    margin: 50px 0;
 }
 
 .header-logo {
+    width: 165px;
+}
+.header-logo img{
+    padding-right: 8px;
+    float: left;
+}
 
+.text-bigger {
+    color:  #ffffff;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    float: left;
+    margin-top: 7px;
+}
+
+.text-smaller {
+    color:  #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    float: left;
 }
 
 .header-text {
-
+    color:  #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    float: right;
 }
 
 .gallery {
@@ -29,4 +67,8 @@
 
 .footer {
 
+}
+
+.clearfix {
+    clear: both;
 }

@@ -15,10 +15,20 @@
 
 .header-logo {
     width: 165px;
+    float: left;
 }
+
 .header-logo img{
     padding-right: 8px;
     float: left;
+}
+
+.header-logo:hover img{
+    content: url("../img/logo(orange).png");
+}
+
+.header-logo:hover a{
+    color: #f26522;
 }
 
 .text-bigger {
@@ -53,20 +63,62 @@
     float: right;
 }
 
-.gallery {
-
+.gallery-item {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
-.gallery-item {
-
+.gallery-item:hover a{
+    color: #f26522;
 }
 
 .gallery-img{
+    border: 2px solid transparent;
+    border-image: linear-gradient(to bottom, #fff 0%, transparent);
+    border-image-slice: 1;
+}
 
+.gallery-text {
+    color:  #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    text-decoration: none;
+    float: bottom;
+    display: inline-block;
+    margin-top: 18px;
+}
+
+.gallery-img-wrapper {
+    position: relative;
+}
+
+.tour-info {
+    color: #ffffff;
+    display: none;
+    position: absolute;
+    bottom: 0;
+}
+
+.view-details {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+.gallery-img-wrapper:hover .tour-info{
+    display: block;
 }
 
 .footer {
-
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    margin: 20px 0;
 }
 
 .clearfix {

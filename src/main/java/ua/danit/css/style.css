@@ -96,14 +96,14 @@
 .gallery-img-wrapper {
     position: relative;
     width: 311px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .tour-info {
     color: #ffffff;
-    display: none;
+    opacity: 0;
     position: absolute;
-    bottom: 0;
+    bottom: -35px;
     background-color: #f26522;
     width: 100%;
     height: 35%;
@@ -149,6 +149,9 @@
 
 .gallery-img-wrapper:hover .tour-info{
     display: block;
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
+    bottom: 0px;
 }
 
 .footer {

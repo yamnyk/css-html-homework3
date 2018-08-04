@@ -138,10 +138,10 @@
 }
 
 .view-details a:after {
-    content: '';
+    content: '>';
     display: inline-block;
-    border: 5px solid transparent;
-    border-left-color: white;
+    /*border: 5px solid transparent;*/
+    /*border-left-color: white;*/
     margin-left: 20px;
 }
 
